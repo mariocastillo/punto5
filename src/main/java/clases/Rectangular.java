@@ -1,23 +1,23 @@
 package clases;
 
 public class Rectangular extends GeometricFigure {
-	private double width,length;
-	public Rectangular(double width,double length) {
+	private double width,heigth;
+	public Rectangular(double width,double heigth) {
 		this.width=width;
-		this.length=length;
+		this.heigth=heigth;
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
-	public double area() {
+	public double calculateArea() {
 		// TODO Auto-generated method stub
-		return width*length;
+		return width*heigth;
 	}
 
 	@Override
-	public double perimeter() {
+	public double calculatePerimeter() {
 		// TODO Auto-generated method stub
-		return 2*(width+length);
+		return 2*(width+heigth);
 	}
 
 }

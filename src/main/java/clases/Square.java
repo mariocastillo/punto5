@@ -1,21 +1,22 @@
 package clases;
 
 public class Square extends GeometricFigure {
-
-	public Square() {
+	private double edge;
+	public Square(double edge) {
+		this.edge=edge;
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
-	public double area() {
+	public double calculateArea() {
 		// TODO Auto-generated method stub
-		return 0;
+		return edge*edge;
 	}
 
 	@Override
-	public double perimeter() {
+	public double calculatePerimeter() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 4*edge;
 	}
 
 }
