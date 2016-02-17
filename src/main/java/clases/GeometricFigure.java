@@ -2,7 +2,7 @@ package clases;
 
 public abstract class GeometricFigure {
 
-	public abstract double area();
-	public abstract double perimeter();
+	public abstract double calculateArea();
+	public abstract double calculatePerimeter();
 	
 }
